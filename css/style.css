@@ -1,3 +1,7 @@
 .container {
 	max-width: 900px;
 }
+
+header {
+	background-color: rgba(205, 120, 120, .9);	
+}
