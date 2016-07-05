@@ -46,7 +46,7 @@ git log --format="%s by %an" --since="3 hours ago" --no-merges develop-feature1.
 --since - выборка по дате
 
 1.2
-git log --format="%s by %an% at %ai%"
+git log --format="%s by %an% at %ai%" --grep="231:"
 
 2.
 git cherry-pick develop
